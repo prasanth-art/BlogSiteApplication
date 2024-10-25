@@ -4,11 +4,15 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>a5df321d-7b7d-4d0e-a591-d7f6599fc19c</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.32" />
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.36.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
     <PackageReference Include="MongoDB.Bson" Version="2.28.0" />
     <PackageReference Include="MongoDB.Driver" Version="2.28.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
